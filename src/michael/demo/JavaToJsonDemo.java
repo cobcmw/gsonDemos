@@ -7,6 +7,9 @@ import michael.pojo.Person;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author  https://www.iwwenbo.com
+ */
 public class JavaToJsonDemo {
     public static void main(String[] args) {
         Person jack = new Person();
