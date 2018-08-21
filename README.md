@@ -1,5 +1,7 @@
 google gson使用示例代码
 
+@author 容休博客-https://www.rxblog.xyz
+
 
 ## 将Java对象转换为Json字符串
 
