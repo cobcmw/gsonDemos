@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author  https://www.iwwenbo.com
+ * @author  https://www.rxblog.xyz
  */
 public class JavaToJsonDemo {
     public static void main(String[] args) {
