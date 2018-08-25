@@ -1,4 +1,4 @@
-package michael.pojo;
+package michael.simpleDemo.pojo;
 
 import java.io.Serializable;
 

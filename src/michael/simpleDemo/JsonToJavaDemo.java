@@ -1,9 +1,9 @@
-package michael.demo;
+package michael.simpleDemo;
 
 import com.google.gson.Gson;
-import michael.pojo.Hjxx;
-import michael.pojo.HjxxResult;
-import michael.pojo.Person;
+import michael.simpleDemo.pojo.Hjxx;
+import michael.simpleDemo.pojo.HjxxResult;
+import michael.simpleDemo.pojo.Person;
 
 import java.util.List;
 

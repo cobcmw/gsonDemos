@@ -1,4 +1,4 @@
-package michael.pojo;
+package michael.simpleDemo.pojo;
 
 public class Person {
     private String name;

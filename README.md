@@ -3,13 +3,41 @@ google gson使用示例代码
 @author 容休博客-https://www.rxblog.xyz
 
 
-## 将Java对象转换为Json字符串
+## 1.将Java对象转换为Json字符串
+
+* 示例代码：
+
+```
+Person jack = new Person();
+jack.setName("Jack");
+jack.setAge(1);
+Person michael = new Person();
+michael.setName("Michael");
+jack.setAge(5);
+Gson gson = new Gson();
+//示例1
+System.out.println("================示例1==========");
+System.out.println(gson.toJson(jack));
+
+Company myCompany = new Company();
+myCompany.setAddress("山东济南");
+List<Person> personList = new ArrayList<>();
+personList.add(jack);
+personList.add(michael);
+myCompany.setEmployees(personList);
+
+//示例2
+System.out.println("================示例2==========");
+System.out.println(gson.toJson(personList));
+
+//示例3
+System.out.println("================示例3==========");
+System.out.println(gson.toJson(myCompany));
+```
 
 
 
-
-
-## 将Json字符串转换为Java对象
+## 2.将Json字符串转换为Java对象
 
 * 示例1
 
@@ -45,4 +73,35 @@ if ("0".equals(result.getStatus())) {
     }
 }
 ```
+
+## 3.JsonReader使用
+
+* 示例Json文本
+
+```
+[
+   {
+     "id": 912345678901,
+     "text": "How do I read a JSON stream in Java?",
+     "geo": null,
+     "user": {
+       "name": "json_newb",
+       "followers_count": 41
+      }
+   },
+   {
+     "id": 912345678902,
+     "text": "@json_newb just use JsonReader!",
+     "geo": [50.454722, -104.606667],
+     "user": {
+       "name": "jesse",
+       "followers_count": 2
+     }
+   }
+ ]
+```
+
+* 示例代码
+
+详见：michael.jsonreaderexaple.JsonReaderExample
 

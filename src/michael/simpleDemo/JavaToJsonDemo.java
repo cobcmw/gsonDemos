@@ -1,8 +1,8 @@
-package michael.demo;
+package michael.simpleDemo;
 
 import com.google.gson.Gson;
-import michael.pojo.Company;
-import michael.pojo.Person;
+import michael.simpleDemo.pojo.Company;
+import michael.simpleDemo.pojo.Person;
 
 import java.util.ArrayList;
 import java.util.List;

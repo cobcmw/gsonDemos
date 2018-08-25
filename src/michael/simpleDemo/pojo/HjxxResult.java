@@ -1,4 +1,4 @@
-package michael.pojo;
+package michael.simpleDemo.pojo;
 
 import java.io.Serializable;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class HjxxResult implements Serializable {
     private String status;
     private String msg;
-    private List<michael.pojo.Hjxx> data;
+    private List<michael.simpleDemo.pojo.Hjxx> data;
 
 
     public String getStatus() {
@@ -25,11 +25,11 @@ public class HjxxResult implements Serializable {
         this.msg = msg;
     }
 
-    public List<michael.pojo.Hjxx> getData() {
+    public List<michael.simpleDemo.pojo.Hjxx> getData() {
         return data;
     }
 
-    public void setData(List<michael.pojo.Hjxx> data) {
+    public void setData(List<michael.simpleDemo.pojo.Hjxx> data) {
         this.data = data;
     }
 }
